@@ -1,0 +1,10 @@
+.container{
+    width: 800px;
+    margin: auto;
+}
+.background{
+    background-color: rgb(32, 31, 31);
+}
+i{
+    color: white;
+}
