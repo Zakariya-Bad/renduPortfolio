@@ -7,11 +7,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header class="background">
-        <a href="">Logo</a>
+        <a class="logo" href="">Logo</a>
         <nav>
             <a href="">Services</a>
             <a href="">Réalisations</a>
@@ -25,29 +29,31 @@
                     <span>Branding | Image making</span>
                     <h1>Studio Aline Graphik</h1>
                     <p>Des identités visuelles qui marquent les esprits</p>
-                    <a href="">Demander un devis</a>
+                    <a class="bouton" href="">Demander un devis</a>
                 </div>
-                <img src="Assets/HeaderImage.png" alt="">
+                <div>
+                    <img src="Assets/HeaderImage.png" alt="">
+                </div>
             </div>
         </section>
 
         <section>
             <div class="container">
+                <h2>Services</h2>
                 <div class="services">
-                    <h2>Services</h2>
-                    <div>
+                    <div class="cardserv">
                         <img src="Assets/Service/service1.png" alt="">
                         <h3>Identité de marque</h3>
                         <p>Création de logos, palettes de couleurs et chartes graphiques sur mesure pour donner une
                             personnalité forte à votre marque.</p>
                     </div>
-                    <div>
+                    <div class="cardserv">
                         <img src="Assets/Service/service2.png" alt="">
                         <h3>Design d'interface</h3>
                         <p>Conception d’interfaces web et mobiles esthétiques, intuitives et cohérentes avec votre
                             univers visuel.</p>
                     </div>
-                    <div>
+                    <div class="cardserv">
                         <img src="Assets/Service/service3.png" alt="">
                         <h3>Visuels miltusupport</h3>
                         <p>Déclinaison de votre identité sur des supports imprimés ou numériques : cartes de visite,
@@ -71,54 +77,52 @@
 
         <section>
             <div class="container">
-                <div class="réalisations">
-                    <h2>Réalisations</h2>
-                    <div>
-                        <div>
+                <h2>Réalisations</h2>
+                <div class="realisations">
+                        <div class="cardreal">
                             <img src="Assets/projets/projet1.png" alt="">
                             <h3>Refonte de l’identité de Greenwave</h3>
                             <p>Création d’un logo et d’une nouvelle charte graphique</p>
                         </div>
-                        <div>
+                        <div class="cardreal">
                             <img src="Assets/projets/projet2.png" alt="">
                             <h3>Application mobile Bloom</h3>
                             <p>Design UX/UI pour une application de bien-être. Palette douce, typographies apaisantes et
                                 navigation fluide pour une expérience relaxante.</p>
                         </div>
-                        <div>
+                        <div class="cardreal">
                             <img src="Assets/projets/projet3.png" alt="">
                             <h3>Campagne visuelle Café du Coin</h3>
                             <p>Création d’affiches et de visuels pour la communication d’un café de quartier. Une
                                 direction artistique vintage et conviviale.</p>
                         </div>
-                        <div>
+                        <div class="cardreal">
                             <img src="Assets/projets/projet4.png" alt="">
                             <h3>Interface e-commerce Lumi</h3>
                             <p>Refonte graphique complète d’un site e-commerce dédié aux objets de décoration. Design
                                 épuré et mise en avant des produits.</p>
                         </div>
-                        <div>
+                        <div class="cardreal">
                             <img src="Assets/projets/projet5.png" alt="">
                             <h3>Affiches culturelles – Festival Éclats d’Art</h3>
                             <p>Conception d’une série d’affiches pour un festival pluridisciplinaire. Un travail sur la
                                 typographie expressive et la mise en scène de la couleur.</p>
                         </div>
-                        <div>
+                        <div class="cardreal">
                             <img src="Assets/projets/projet6.png" alt="">
                             <h3>Identité visuelle du restaurant L’Ardoise</h3>
                             <p>Création du logo, de la signalétique et des menus pour un bistrot lyonnais. Une identité
                                 chaleureuse mêlant tradition et modernité.</p>
                         </div>
-                    </div>
                 </div>
             </div>
         </section>
 
         <section>
             <div class="container">
-                <div class="témoignages">
+                <div class="temoignages">
                     <h2>Témoignages clients</h2>
-                    <div>
+                    <div class="cardtem">
                         <p>Aline a su comprendre parfaitement l’esprit de mon entreprise. Le logo et la charte sont
                             superbes, modernes et cohérents. Je reçois énormément de compliments !</p>
                         <div class="icon">
@@ -135,7 +139,7 @@
                         </div>
 
                     </div>
-                    <div>
+                    <div class="cardtem">
                         <p>Collaboration fluide et professionnelle. Les maquettes sont élégantes et fonctionnelles,
                             prêtes à être intégrées directement. Bravo !</p>
                         <div class="icon">
@@ -152,7 +156,7 @@
                         </div>
 
                     </div>
-                    <div>
+                    <div class="cardtem">
                         <p>Les affiches réalisées pour notre événement ont fait sensation ! Un grand sens du détail et
                             une excellente compréhension de notre public.</p>
                         <div class="icon">
@@ -194,7 +198,7 @@
                     <form action="">
                         <input type="text" placeholder="Nom">
                         <input type="text" placeholder="Téléphone">
-                        <button>Envoyer</button>
+                        <button class="bouton">Envoyer</button>
                     </form>
                 </div>
             </div>

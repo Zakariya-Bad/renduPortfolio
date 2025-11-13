@@ -1,10 +1,102 @@
+body{
+    margin: 0;
+    font-family: "Epilogue", sans-serif;
+}
 .container{
     width: 800px;
     margin: auto;
+    padding: 80px;
 }
 .background{
     background-color: rgb(32, 31, 31);
+    color: white;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+a{
+    color: white;
+   
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px; 
+    text-decoration: none;
+}
+.hero{
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+span{
+    font-weight: 400;
+}
+h1{
+    font-size: 60px;
+}
+
+.titre{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+.bouton{
+    background-color: white;
+    color: black;
+    padding: 15px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.cardserv{
+   display: flex;
+   flex-direction: column;
+    img{
+        height: 145px; width: 130px;
+    }
+}
+.marques{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+.realisations{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cardreal{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.temoingnages{
+    display: flex;
+}
+.cardtem{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: rgb(241, 237, 237);
+    border-radius: 5px;
+}
+.icon{
+    width: 100px;
+}
+
 i{
     color: white;
 }
