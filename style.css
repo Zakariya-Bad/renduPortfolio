@@ -59,6 +59,7 @@ h1{
     font-weight: bold;
     text-decoration: none;
     width: fit-content;
+    border: 0;
 }
 .services{
     display: flex;
