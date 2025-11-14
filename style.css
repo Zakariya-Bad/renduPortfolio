@@ -17,7 +17,7 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px;
 }
 nav{
     display: flex;
