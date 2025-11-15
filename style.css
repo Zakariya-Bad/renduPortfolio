@@ -28,7 +28,7 @@ a{
    
 }
 .logo{
-    font-weight: bold;
+    font-weight: 600;
     font-size: 20px; 
     text-decoration: none;
 }
@@ -39,12 +39,17 @@ a{
     }
 }
 span{
-    font-weight: 400;
+    font-weight: 600;
 }
 h1{
     font-size: 60px;
 }
-
+h2{
+    font-weight: 600;
+}
+h3{
+    font-weight: 600;
+}
 .titre{
     display: flex;
     flex-direction: column;
@@ -54,7 +59,7 @@ h1{
 .bouton{
     background-color: white;
     color: black;
-    padding: 15px 10px;
+    padding: 20px 45px;
     border-radius: 4px;
     font-weight: bold;
     text-decoration: none;
@@ -101,7 +106,7 @@ h1{
     flex-direction: column;
     gap: 30px;
     max-width: 250px;
-    background-color: rgb(241, 237, 237);
+    background-color: rgb(244, 240, 240);
     border-radius: 4px;
 }
 .icon{
@@ -112,8 +117,9 @@ h1{
     }
 }
 .para{
-    font-weight: bolder;
-    max-width: 300px;
+    font-weight: 600;
+    max-width: 200px;
+    padding: 20px;
 }
 .star{
 
@@ -135,4 +141,15 @@ h1{
 input{
     width: 300px;
     padding: 10px;
+}
+.social{
+    font-size: 25px;
+    margin-right: 10px;
+}
+#title-foot{
+    font-size: 32px;
+}
+
+.line{
+     line-height: 25px
 }
